@@ -1,6 +1,7 @@
 {
-  "name": "tester",
+  "name": "localhost-viewport-tester",
   "version": "0.1.0",
+  "author": "Sagar Bhat",
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",

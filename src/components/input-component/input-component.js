@@ -6,7 +6,7 @@ export class InputComponent extends Component {
         width = document.getElementById('myWidth'),
         height = document.getElementById('myHeight'),
         iframe = document.createElement('iframe');
-        iframe.src =  url.value !== '' ? url.value : 'http://localhost:3001';
+        iframe.src =  url.value  !== '' ? (url.value.indexOf('http://') > 0 ? url.value : 'http://' + url.value) : 'http://localhost:3001';
         iframe.height = height.value !== '' ? height.value : '600px';
         iframe.width = width.value !== '' ? width.value : '320px';
         document.getElementsByClassName('content')[0].appendChild(iframe);
