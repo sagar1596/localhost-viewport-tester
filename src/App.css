@@ -1,0 +1,31 @@
+.App-header {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+header.App-header .logo {
+    height: 30px;
+    vertical-align: middle;
+}
+
+header.App-header input {
+  margin: 0 25px;
+  padding: 5px;
+  width: 20em;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+iframe {
+  margin: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
